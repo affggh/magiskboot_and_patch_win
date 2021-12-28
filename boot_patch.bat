@@ -10,14 +10,14 @@ if not exist %1 busybox printf "\033[031mError File [%1] not found...\033[0m\nPl
 
 busybox printf "\033[033mWorking on [%1] image\033[0m\n"
 
-if "%2"=="" set IS64BIT=true
-if "%2"=="true" set IS64BIT=true
+if not "%2"=="" set IS64BIT=true
+if "%2"=="false" set IS64BIT=false
 if "%3"=="" set KEEPVERITY=false
 if "%4"=="" set KEEPFORCEENCRYPT=false
 if "%IS64BIT%"=="true" (
-	busybox ash boot_patch.sh true %2 %3 %4
+	busybox ash boot_patch.sh %1 true %3 %4
 ) else (
-	busybox ash boot_patch.sh false %2 %3 %4
+	busybox ash boot_patch.sh %1 false %3 %4
 )
 
 
