@@ -16,3 +16,6 @@ magiskboot binary on windows with a patch script
 ```
 
 *enjoy~* <br>
+
+# x86 not support，you can change binary files to support x86
+arm is default
