@@ -19,3 +19,6 @@ magiskboot binary on windows with a patch script
 
 # x86 not support，you can change binary files to support x86
 arm is default
+
+# Issues
+*On some mt6735/mt6737 device ,the file generate new-boot.img size is too large as 4GB ,dont know how to fix...
