@@ -22,3 +22,7 @@ arm is default
 
 # Issues
 *On some mt6735/mt6737 device ,the file generate new-boot.img size is too large as 4GB ,dont know how to fix...
+
+# Version
+script version 1.1
+magiskboot binary file version is 2021.9.3 clone from magisk/native/jni
