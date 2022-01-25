@@ -1,0 +1,6 @@
+# 你要将你的版本的对应自己手机的架构的文件复制到此目录下
+文件有
+libmagiskinit.so
+测试版可能只有下列文件的一个，复制一个即可
+libmagisk32.so
+libmagisk64.so
